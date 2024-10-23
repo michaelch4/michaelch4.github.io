@@ -1,0 +1,17 @@
+{
+  "@context": "https://w3id.org/gaia-x/v1/",
+  "id": "did:key:zBT5NyBb1KfmHj46D35Vwooxh1QWZjrKitUo4QzbL5X4i:seller",  
+  "type": "ServiceOffering",
+  "name": "Router Carbon Footprint Data",
+  "description": "Environmental data about the carbon footprint of routers.",
+  "serviceType": "EnvironmentalData",
+  "providedBy": "did:key:zBT5NyBb1KfmHj46D35Vwooxh1QWZjrKitUo4QzbL5X4i:seller",  
+  "dataFields": {
+    "product": "Router Model XYZ",
+    "energyConsumption": "50 kWh/year",
+    "CO2Emissions": "200 kg/year"
+  },
+  "accessConditions": {
+    "buyerDIDRequired": true
+  }
+}
