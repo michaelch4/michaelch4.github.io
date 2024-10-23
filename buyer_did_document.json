@@ -1,0 +1,23 @@
+{
+  "@context": "https://w3id.org/did/v1",
+  "id": "did:key:z8u6SRrzB5q799TRt3zJD3ZG4go1XJfkHQSAai9hyQuf1:buyer",
+  "publicKey": [
+    {
+      "id": "did:key:z8u6SRrzB5q799TRt3zJD3ZG4go1XJfkHQSAai9hyQuf1:buyer#keys-1",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "controller": "did:key:z8u6SRrzB5q799TRt3zJD3ZG4go1XJfkHQSAai9hyQuf1:buyer",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "x": "dVoo6Nwp8wNOSOpdLlVzBuHKhZz3S2m8SaEfMUgVcYQ",
+        "y": "jnMch6SOUBklhNPKPhF_PSS3RbpM5fm_IgCiQXxYFR8",
+        "crv": "P-256"
+      }
+    }
+  ],
+  "authentication": [
+    {
+      "type": "EcdsaSecp256k1SignatureAuthentication2019",
+      "publicKey": "did:key:z8u6SRrzB5q799TRt3zJD3ZG4go1XJfkHQSAai9hyQuf1:buyer#keys-1"
+    }
+  ]
+}
